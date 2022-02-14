@@ -1,7 +1,7 @@
 # coding=utf-8
 
 from mpmath import mp
-from typing import Literal
+from typing_extensions import Literal
 
 def pi_digits(decimals: int) -> int:
     if type(decimals) != int:
