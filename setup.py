@@ -5,7 +5,7 @@ from curses import use_env
 from setuptools import setup
 
 setup(name='py-digits',
-      version='0.1.5',
+      version='0.1.6',
       description='Sum the first X Pi digits',
       url='https://github.com/Baelfire18/pi-digits',
       author='Jose Antonio Castro',
@@ -13,7 +13,7 @@ setup(name='py-digits',
       long_description_content_type= 'text/markdown',
       author_email='jacastro18@uc.cl',
       license='MIT',
-      packages=['py-digits'],
+      packages=['pydigits'],
       install_requirements=open('requirements.txt').read().splitlines(),
       keywords=['pi', 'sum', 'CAPTCHA', 'robot', 'binary'],
       zip_safe=False,
