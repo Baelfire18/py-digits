@@ -4,3 +4,7 @@ Change Log
 0.1.0 (14/02/2022)
 -------------------
 - First Release
+
+0.1.1 (15/02/2022)
+-------------------
+- First Release (for real)

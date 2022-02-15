@@ -11,7 +11,7 @@ This library was created inspired in solving this meme where there is a CAPTCHA 
 Install the library with:
 
 ```sh
-pip install -U pidigits
+pip install -U pi-digits
 ```
 
 ### Usage

@@ -4,7 +4,7 @@
 from setuptools import setup
 
 setup(name='pi-digits',
-      version='0.1.0',
+      version='0.1.1',
       description='Sum the first X Pi digits',
       url='https://github.com/Baelfire18/pi-digits',
       author='Jose Antonio Castro',
