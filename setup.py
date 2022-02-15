@@ -1,10 +1,11 @@
 # coding=utf-8
 
 
+from curses import use_env
 from setuptools import setup
 
 setup(name='pi-digits',
-      version='0.1.3',
+      version='0.1.4',
       description='Sum the first X Pi digits',
       url='https://github.com/Baelfire18/pi-digits',
       author='Jose Antonio Castro',
@@ -15,4 +16,7 @@ setup(name='pi-digits',
       packages=['pidigits'],
       install_requirements=open('requirements.txt').read().splitlines(),
       keywords=['pi', 'sum', 'CAPTCHA', 'robot', 'binary'],
-      zip_safe=False)
+      zip_safe=False,
+      use_scm_version=True,
+      setup_requires=['setuptools_scm']
+      )
