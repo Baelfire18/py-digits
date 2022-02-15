@@ -1,7 +1,7 @@
 # coding=utf-8
 
 import unittest
-from pidigits import sum_pi_digits
+from pydigits import sum_pi_digits
 
 
 class ValidationTests(unittest.TestCase):

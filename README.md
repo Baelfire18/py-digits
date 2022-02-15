@@ -11,13 +11,13 @@ This library was created inspired in solving this meme where there is a CAPTCHA 
 Install the library with:
 
 ```sh
-pip install -U pi-digits
+pip install -U py-digits
 ```
 
 ### Usage
 
 ```python
-from pidigits import sum_pi_digits
+from pydigits import sum_pi_digits
 
 print(sum_pi_digits(31_415, 'odd'))
 # 78662
