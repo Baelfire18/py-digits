@@ -2,11 +2,11 @@ from setuptools import setup
 
 setup(
     name="py-digits",
-    version="1.0.1",
-    description="Sum the first X Pi digits",
+    version="1.0.2",
+    description="Add the first X Pi digits",
     url="https://github.com/Baelfire18/py-digits",
     author="Jose Antonio Castro",
-    long_description=open("README.md").read() + "\n\n" + open("CHANGELOG.txt").read(),
+    long_description=open("README.md").read() + "\n\n" + open("CHANGELOG.md").read(),
     long_description_content_type="text/markdown",
     author_email="jacastro18@uc.cl",
     license="MIT",

@@ -1,6 +1,8 @@
 # Py digits
 
+[![GitHub release](https://img.shields.io/github/v/release/Baelfire18/py-digits.svg)](../../releases/latest)
 [![lint][lint-image]][lint-url]
+<a href="https://github.com/psf/black"><img alt="Code style: black" src="https://img.shields.io/badge/code%20style-black-000000.svg"></a>
 
 This library was inspired by this meme:
 
@@ -28,6 +30,38 @@ print(sum_pi_digits(31_415, 'odd', 'binary'))
 # 10011001101000110
 ```
 
+## Documentation
+
+### pi_digits
+
+```python
+function pydigits.pi_digits(decimals)
+```
+
+Function that returns the `pi` number rounded to the number of digits given has an argument.
+
+#### Parameters
+
++ decimals: `int`.
+Number of digits of `pi` requested.
+
+### sum_pi_digits
+
+```python
+function sum_pi_digits(decimals, nature="all", notation="decimal")
+```
+
+#### Parameters
+
++ decimals: `int`.
+Number of digits of `pi` requested.
+
++ nature: `"all"`, `"even"` or `"odd"`, default `"all"`.
+The nature of the digits of `pi` taht you want to count for your sum.
+
++ notation: `"decimal"` or `"binary"`, default `"decimal"`.
+The notation of the answer obtained.
+
 ## Testing
 
 Run the test suite with:
@@ -36,16 +70,12 @@ Run the test suite with:
 python -m unittest tests
 ```
 
+## Install Local
+
 To install it locally from the source code:
 
 ```sh
 python setup.py develop
-```
-
-## Publish
-
-```sh
-python setup.py register sdist upload
 ```
 
 [lint-image]: https://codeclimate.com/github/Baelfire18/py-digits/badges/gpa.svg
