@@ -1,8 +1,8 @@
-from mpmath import mp
+from mpmath import mp, ctx_mp_python
 from typing_extensions import Literal
 
 
-def pi_digits(decimals: int) -> "mpmath.ctx_mp_python.constant":
+def pi_digits(decimals: int) -> ctx_mp_python.numbers:
     if type(decimals) != int:
         raise TypeError('"decimals" must be an integer')
     decimals += 1
